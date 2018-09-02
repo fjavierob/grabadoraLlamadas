@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#f6f6f6">
+
+    <TextView
+        android:id="@+id/llamadaNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="left"
+        android:layout_marginLeft="4dp"
+        android:paddingTop="4dp"/>
+
+    <TextView
+        android:id="@+id/llamadaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desconocido"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/llamadaNumero"
+        android:layout_marginLeft="4dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/llamadaArchivo"
+        android:visibility="invisible"
+        android:textSize="1pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="default"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/llamadaNumero"
+        android:layout_toRightOf="@id/llamadaNombre"
+        android:layout_marginLeft="2dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/llamadaSelected"
+        android:visibility="invisible"
+        android:textSize="1pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/llamadaNumero"
+        android:layout_toRightOf="@id/llamadaArchivo"
+        android:layout_marginLeft="2dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/llamadaFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/llamadaNombre"
+        android:layout_marginLeft="4dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/llamadaDuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duracion"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/llamadaNombre"
+        android:layout_toRightOf="@id/llamadaFecha"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="4dp"/>
+
+
+    <ImageView
+        android:id="@+id/llamadaDireccion"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/dialog_info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingBottom="32dp"
+        android:paddingTop="32dp"
+        android:text="Configurar nuevo número"
+        android:textAppearance="?android:attr/textAppearanceSearchResultTitle" />
+
+    <Button
+        android:id="@+id/botonBuscarEnContactos"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_info_text"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Buscar en agenda"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/botonBuscarEnContactos"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:background="#C8C9CB" />
+
+    <EditText
+        android:id="@+id/inputNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:hint="Nombre (opcional)"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/inputNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text"
+        android:ems="10"
+        android:hint="Número"
+        android:inputType="phone"
+        android:padding="16dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <Button
+        android:id="@+id/botonInsertarTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp"
+        android:layout_marginBottom="48dp"
+        android:text="Añadir teléfono"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark" />
+</RelativeLayout>

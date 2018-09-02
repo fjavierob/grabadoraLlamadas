@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="habilitado"
+        android:defaultValue="true"
+        android:title="@string/pref_habilitado_title" />
+
+    <CheckBoxPreference
+        android:key="pref_entrantes"
+        android:title="@string/pref_entrantes_title"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="pref_salientes"
+        android:title="@string/pref_salientes_title"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_llamadas_a_grabar_entries"
+        android:entryValues="@array/pref_llamadas_a_grabar_values"
+        android:key="pref_llamadas_a_grabar"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_llamadas_a_grabar_title" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_audio_a_grabar_entries"
+        android:entryValues="@array/pref_audio_a_grabar_values"
+        android:key="pref_audio_a_grabar"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_audio_a_grabar_title" />
+
+
+    <Preference
+        android:title="@string/pref_configurar_title"
+        android:key="configurar"
+        android:summary="@string/pref_configurar_summary" />
+        <intent android:action="com.dam.grabadoradellamadas.ConfigurarActivity" />
+
+    <Preference
+        android:title="@string/pref_excluir_title"
+        android:key="excluir"
+        android:summary="@string/pref_excluir_summary" />
+
+    <Preference android:title="Prueba intent" >
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://www.youtube.com/watch?v=azo0g3ESENY" />
+    </Preference>
+
+</PreferenceScreen>
