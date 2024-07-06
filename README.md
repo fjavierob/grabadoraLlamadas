@@ -1,21 +1,21 @@
 # App Android: Grabadora de llamadas
 
-Diseño de Aplicaciones Móviles.
+DiseÃ±o de Aplicaciones MÃ³viles.
 
-Grado en Ingeniería de las Tecnologías de Telecomunicación.
+Grado en IngenierÃ­a de las TecnologÃ­as de TelecomunicaciÃ³n.
 
 Universidad de Sevilla.
 
 
 ## Tema
 
-Realizar una aplicación en Android que graba las llamadas que tienen lugar en el terminal. Para guardar las grabaciones se utiliza el almacenamiento externo del teléfono, para que sea accesible por otras aplicaciones y para poder ser movidos al ordenador con comodidad.
+Realizar una aplicaciÃ³n en Android que graba las llamadas que tienen lugar en el terminal. Para guardar las grabaciones se utiliza el almacenamiento externo del telÃ©fono, para que sea accesible por otras aplicaciones y para poder ser movidos al ordenador con comodidad.
 
-## Funcionamiento e implementación
+## Funcionamiento e implementaciÃ³n
 
 Ver [memoria.pdf](doc/memoria.pdf) 
 
 ## Autores
 
-* **Francisco Javier  Ortiz Bonilla** - [Pogorelich](https://github.com/pogorelich)
-* **Domingo Fernández Píriz**
+* **Francisco Javier  Ortiz Bonilla** - [fjavierob](https://github.com/fjavierob)
+* **Domingo FernÃ¡ndez PÃ­riz**
